@@ -12,7 +12,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" async>
-	<link rel="stylesheet" href="./assets/style_min.css" async>
+	<link rel="stylesheet" href="./assets/style.min.css" async>
 
 	<!-- Google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -171,7 +171,10 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.webp" alt="image caméra" loading="lazy">
+			<picture>
+				<source media="(min-width= 619px)" srcset="./assets/images/camera.webp">
+				<img src="./assets/images/camera_small.webp" alt="image caméra" loading="lazy">
+			</picture>
 		</div>
 	</section>
 </footer>
@@ -179,11 +182,13 @@
 <!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-<script src="./assets/maugallery_min.js"></script>
-<script src="./assets/scripts_min.js"></script>
+<script src="./assets/maugallery.min.js"></script>
+<script src="./assets/scripts.min.js"></script>
 
 <!-- Rich Snippet Google -->
+<script type="">
 
+</script>
 
 </body>
 </html>
