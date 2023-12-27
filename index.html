@@ -19,7 +19,24 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	
+	<!-- Balise Open Graph data Facebook et Instagram -->
+	<meta property="og:title" content="Nina Carducci - Photographe Professionnel à Bordeaux.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://nina-carducci.github.io/">
+	<meta property="og:image" content="https://buens18k.github.io/SEO-ninacarducci.github.io-main/assets/images/nina.webp">
+	<meta property="og:image:alt" content="Portrait de Nina Carducci">
+	<meta property="og:description"
+	content="Portfolio de Nina Carducci. Photographe Professionnel de Bordeaux, passionné par le bonheur, elle immortalise vos moments en réalisant des clichés à l'occasion de mariage, concert ou évènement d'entreprise, et réalise également vos portraits.">
 
+	<!-- Cards Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@nina-carducci">
+	<meta name="twitter:title" content="Nina Carducci - Photographe Professionnel à Bordeaux.">
+	<meta name="twitter:image" content="https://buens18k.github.io/SEO-ninacarducci.github.io-main/assets/images/nina.webp">
+	<meta name="twitter:image:alt" content="Portrait de Nina Carducci">
+	<meta name="twitter:description" 
+	content="Portfolio de Nina Carducci. Photographe Professionnel de Bordeaux, passionné par le bonheur, elle immortalise vos moments en réalisant des clichés à l'occasion de mariage, concert ou évènement d'entreprise, et réalise également vos portraits.">
+ 
 
 </head>
 <body>
@@ -186,27 +203,41 @@
 <script src="./assets/scripts.min.js"></script>
 
 <!-- Rich Snippets -->
-<script type="application/id+json">
+<script type="application/ld+json">
 	{
-		"@context": "http://shema.org",
+		"@context": "http://schema.org",
 		"@type": "LocalBusiness",
-		"url": "https://nina-carducci.github.io/",
-		"name": "Nina Carducci - Photographe Professionnel",
+		"url" : "https://nina-carducci.github.io/",
+		"telephone" : "+33556677889",
+		"name": "Nina Carducci Photographe",
+		"description" : "Nina Carducci : photographe professionelle à Bordeaux",
+		"priceRange": "50€ 400€",
+		"image": "https://buens18k.github.io/SEO-ninacarducci.github.io-main/assets/images/nina.webp",
 		"address": {
 			"@type": "PostalAddress",
+			"addressRegion": "NAQ",
 			"streetAddress": "68 avenue Alsace-Lorraine",
 			"addressLocality": "Bordeaux",
 			"postalCode": "33200",
-			"addressCountry": "France",
+			"addressCountry": "FR"
 		},
 		"geo": {
 			"@type": "GeoCoordinates",
-			"latitude": "44.8466732",
-			"longitude": "-0.6065805"
+			"latitude": 44.8466732,
+			"longitude": -0.6065805
 		},
-		"telephone": "05 56 67 78 89",
-		"openingHours":	"Mo, Tu, We, Th, Fr, 10:00 - 19:00",
-		"priceRange": "50€ - 400€",
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		}
 	}
 </script>
 
